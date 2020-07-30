@@ -1,12 +1,6 @@
 name: '[docker] CI for releases'
 
-on:
-    push:
-        branches: master
-        paths:
-            - 'lib/**'
-            - 'Dockerfile'
-            - 'package.json'
+on: workflow_dispatch
 
 jobs:
     release:

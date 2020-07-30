@@ -1,18 +1,6 @@
 name: '[docker] CI for build tests'
 
-on:
-    pull_request:
-        branches: master
-        paths:
-            - 'lib/**'
-            - 'Dockerfile'
-            - 'package.json'
-    push:
-        branches: '*'
-        paths:
-            - 'lib/**'
-            - 'Dockerfile'
-            - 'package.json'
+on: workflow_dispatch
 
 jobs:
     test:
