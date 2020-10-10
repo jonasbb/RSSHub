@@ -1,6 +1,6 @@
----
-pageClass: routes
----
+* * *
+
+## pageClass: routes
 
 # 论坛
 
@@ -177,6 +177,12 @@ pageClass: routes
 ### 标签
 
 <Route author="liyefox" example="/v2ex/tab/hot" path="/v2ex/tab/:tabid" :paramsDesc="['tab标签ID,在 URL 可以找到']"/>
+
+## 巴哈姆特電玩資訊站
+
+### 熱門推薦
+
+<Route author="nczitzk" example="/gamer/hot/47157" path="/gamer/hot/:bsn" :paramsDesc="['板块 id，在 URL 可以找到']"/>
 
 ## 才符
 
