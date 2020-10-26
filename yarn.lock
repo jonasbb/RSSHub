@@ -3396,10 +3396,10 @@ chrome-trace-event@^1.0.0:
   dependencies:
     tslib "^1.9.0"
 
-chrono-node@2.1.8:
-  version "2.1.8"
-  resolved "https://registry.yarnpkg.com/chrono-node/-/chrono-node-2.1.8.tgz#5180afb086639d13777079163aa8dd84a596c8c0"
-  integrity sha512-Bn54l+yEX4yA+/8dYIz/tITSWcPFwy1N5KpUEndPngwUCr7hTDKqVAdBjiqPrbvgOeSvcOhe3yIBH+HsmzM3GA==
+chrono-node@2.1.9:
+  version "2.1.9"
+  resolved "https://registry.yarnpkg.com/chrono-node/-/chrono-node-2.1.9.tgz#73d575f062becda441c104cc235278e05ff2f675"
+  integrity sha512-J/raqffbgGG6qAlWQx5huyUE43xsnS9WssqnbXvlfJWBvog9C5ayum3GFaTHRmk3Iy8Wq8dw/VbakCZQyi0+AQ==
   dependencies:
     dayjs "^1.8.29"
 
@@ -4891,10 +4891,10 @@ escodegen@^1.14.1, escodegen@^1.8.1, escodegen@^1.9.1:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-config-prettier@6.13.0:
-  version "6.13.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-6.13.0.tgz#207d88796b5624e5bb815bbbdfc5891ceb9ebffa"
-  integrity sha512-LcT0i0LSmnzqK2t764pyIt7kKH2AuuqKRTtJTdddWxOiUja9HdG5GXBVF2gmCTvVYWVsTu8J2MhJLVGRh+pj8w==
+eslint-config-prettier@6.14.0:
+  version "6.14.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-6.14.0.tgz#390e7863a8ae99970981933826476169285b3a27"
+  integrity sha512-DbVwh0qZhAC7CNDWcq8cBdK6FcVHiMTKmCypOPWeZkp9hJ8xYwTaWSa6bb6cjfi8KOeJy0e9a8Izxyx+O4+gCQ==
   dependencies:
     get-stdin "^6.0.0"
 
@@ -10496,10 +10496,10 @@ remark-frontmatter@2.0.0:
   dependencies:
     fault "^1.0.1"
 
-remark-pangu@2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/remark-pangu/-/remark-pangu-2.1.1.tgz#845e837271a89074e2e8ff75d1d8764c5628f0fd"
-  integrity sha512-KVsDkF1EndVXlnNapNwWuus4UjifwzX45ic6Vkx9d8DEo1ZzS/F9yPbEJuM5b/EPxKAyN/PtAMUdEXMoCpSfBw==
+remark-pangu@2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/remark-pangu/-/remark-pangu-2.2.0.tgz#6f28d8b37308bf0a88df9b803796c38e46927924"
+  integrity sha512-3h2UiRIbnEQR+IxYPhQ5SMbAZPobIV8ddza8U1hJLsfLranbv/cdFiwnZEgMOJYKmi+9XHLMxrAIipmIsLrzPg==
   dependencies:
     pangu "^4.0.7"
     unist-util-is "^4.0.2"
