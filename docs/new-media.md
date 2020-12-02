@@ -118,6 +118,12 @@ pageClass: routes
 
 <Route author="kt286" example="/cnbeta" path="/cnbeta"/>
 
+## DeepL
+
+### Blog
+
+<Route author="nczitzk" example="/deepl/blog" path="/deepl/blog/:lang?" :paramsDesc="['语言，可选 `en` 指 英语 和 `zh` 指 汉语，默认为 en']"/>
+
 ## Deutsche Welle 德国之声
 
 <Route author="nczitzk" example="/dw/zh" path="/dw/:lang?/:caty?" :paramsDesc="['语言，可在对应语言版本页的 URL 中找到，默认为德语', '分类，见下表，默认为全部']">
@@ -386,6 +392,18 @@ IPFS 网关有可能失效，那时候换成其他网关。
 ### 话题
 
 <Route author="emdoe" example="/nautilus/topic/Art" path="/nautilus/topic/:tid" :paramsDesc="['话题 id, 可在页面上方 TOPICS 栏目处找到']"/>
+
+## OpenAI
+
+### Blog
+
+<Route author="ncziztk" example="/openai/blog" path="/openai/blog/:tag" :paramsDesc="['标签，见下表，默认为 All']">
+
+| All | Research | Announcements | Events | Milestones |
+| --- | -------- | ------------- | ------ | ---------- |
+|     | research | announcements | events | milestones |
+
+</Route>
 
 ## PMCAFF
 
