@@ -435,7 +435,7 @@ IPFS 网关有可能失效，那时候换成其他网关。
 
 ### 首页
 
-<Route author="EsuRt" example="/mittrchina/article" path="/mittrchina"/>
+<Route author="EsuRt queensferryme" example="/mittrchina/hot" path="/mittrchina/:type" :paramsDesc="['类型 type，可以是 index（首页资讯）或 hot（本周热榜）']"/>
 
 ## Nautilus
 
@@ -871,6 +871,28 @@ area 分区选项
 ### 电商在线
 
 <Route author="LogicJake" example="/imaijia/category/xls" path="/imaijia/category/:category" :paramsDesc="['类别id，可在 URL 中找到']" />
+
+## 丁香园
+
+### 新冠疫苗实时动态
+
+<Route author="nczitzk" example="/dxy/vaccine/北京" path="/dxy/vaccine/:province?/:city?/:location?" :paramsDesc="['省', '市', '区']">
+
+查看北京市的新冠疫苗接种点，路由为 `/dxy/vaccine/北京`；
+
+查看北京市朝阳区的新冠疫苗接种点，路由为 `/dxy/vaccine/北京/北京/朝阳区`；
+
+查看湖北省武汉市的新冠疫苗接种点，路由为 `/dxy/vaccine/湖北/武汉`；
+
+查看湖北省武汉市武昌区的新冠疫苗接种点，路由为 `/dxy/vaccine/湖北/武汉/武昌区`。
+
+::: tip 提示
+
+若参数为空，则返回全国所有新冠疫苗接种点。
+
+:::
+
+</Route>
 
 ## 懂球帝
 
@@ -1874,6 +1896,11 @@ column 为 third 时可选的 category:
 3.  查看源代码，搜索 `data-wemediaid`，查看紧随其后的引号内的属性值（类似 `W1966190042455428950`）即为网易号 ID。
 
 </Route>
+
+## 网易号（通用）
+
+优先使用方法一，若是网易号搜索页面搜不到的小众网易号（文章页面不含`data-wemediaid`）则可使用此法。
+<Route author="mjysci" example="netease/dy2/T1555591616739" path="/netease/dy2/:id" :paramsDesc="['id，该网易号主页网址最后一项html的文件名']"/> 
 
 ## 网易新闻
 
