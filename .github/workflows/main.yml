@@ -11,10 +11,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: tgymnich/fork-sync@v1.3
+    - uses: tgymnich/fork-sync@v1.2
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         owner: DIYgod
         base: master
         head: master
-        auto_approve: false
+        # auto_approve: false
