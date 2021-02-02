@@ -645,6 +645,18 @@ category 列表：
 部分文章需要经过统一身份认证后才能阅读全文。
 :::
 
+## 哈尔滨工业大学（深圳）
+
+### 哈尔滨工业大学（深圳） - 新闻中心
+
+<Route author="yx1302317313" example="/hitsz/article/id-74" path="/hitsz/article/:category?" :paramsDesc="['分类名，默认为通知公告']" >
+
+| 校区要闻 | 媒体报道 | 通知公告 | 综合新闻 | 校园动态 | 讲座论坛 | 热点专题 |
+| -------- | -------- | -------- | -------- | -------- | -------- | -------- |
+| id-116   | id-80    | id-74    | id-75    | id-77    | id-78    | id-79    |
+
+</Route>
+
 ## 哈尔滨工业大学（威海）
 
 ### 今日工大 - 通知公告
@@ -968,9 +980,17 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 ## 马萨诸塞大学 阿默斯特分校 (UMASS Amherst)
 
-### 电子与计算机工程系新闻
+### 电子与计算机工程系
+
+#### 新闻
 
 <Route author="gammapi" example="/umass/amherst/ecenews" path="/umass/amherst/ecenews" radar="1" rssbud="1"/>
+
+#### 研讨会
+
+<Route author="gammapi" example="/umass/amherst/eceseminar" path="/umass/amherst/eceseminar" radar="1" rssbud="1"/>
+
+注：[源站](https://ece.umass.edu/seminar)在未公布研讨会计划时会清空页面导致 Rsshub 抓取不到内容，此属正常现象。
 
 ### 信息与计算机科学系新闻
 
